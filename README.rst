@@ -1,5 +1,6 @@
 Lightweight wrapper around OPNSense API.
 
+Inspired from https://github.com/ovh/python-ovh
 
 .. code:: python
 
@@ -11,7 +12,6 @@ Lightweight wrapper around OPNSense API.
         endpoint='10.0.0.1',
         application_key='<api key>',
         application_secret='<api secret>',
-        consumer_key='<consumer key>',
     )
 
     # Print nice welcome message
